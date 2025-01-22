@@ -17,9 +17,9 @@ Haust boasts hight security low commissions and provides its own SDK for native 
 - auto distribute eth sepilia to another addr in wallets json
 - just input `y` if you want to auto distribute eth to another wallet
 - input `n` to continue mint and bridge process
-- make sure your first wallet in wallets.json have enought eth sepolia
+- Make sure you setup private key on  in config.json and the wallet have sepolia eth
    ```
-   npm run bridge
+   node bridge
    ```
    
 ## Update
@@ -28,7 +28,7 @@ Haust boasts hight security low commissions and provides its own SDK for native 
 
 - run deploy: 
    ```bash
-   npm run deploy
+   node deploy
    ```
 
 ## Features
@@ -59,11 +59,11 @@ Haust boasts hight security low commissions and provides its own SDK for native 
    ```
 3. Setup: to create new wallets 
    ```bash
-   npm run setup
+   node setup
    ```
 4. Run The Script:
    ```bash
-   npm run start
+   node start
    ```
 
 
